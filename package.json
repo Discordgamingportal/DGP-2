@@ -1,0 +1,14 @@
+{
+  "name": "dgp",
+  "version": "1.0.0",
+  "description": "De nieuwe versie van de DGP bot.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "KluisKraker",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
