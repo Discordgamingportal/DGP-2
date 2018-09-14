@@ -3,7 +3,6 @@ const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 
 const prefix = require("./config/prefix.json");
-const token = process.env.token;
 
 const events = {
 	MESSAGE_REACTION_ADD: 'messageReactionAdd',
@@ -62,4 +61,4 @@ bot.on('raw', async event => {
 
 bot.on("error", (e) => console.error(e));
 
-bot.login(token.token);
+bot.login(process.env.token);
