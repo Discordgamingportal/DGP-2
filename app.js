@@ -3,7 +3,7 @@ const fs = require("fs");
 const bot = new Discord.Client({disableEveryone: true});
 
 const prefix = require("./config/prefix.json");
-const token = require("./config/token.json");
+const token = orocess.env.token;
 
 const events = {
 	MESSAGE_REACTION_ADD: 'messageReactionAdd',
