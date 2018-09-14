@@ -10,10 +10,9 @@ const events = {
 	MESSAGE_REACTION_REMOVE: 'messageReactionRemove',
 };
 
-exports.bot = bot;
-
 require("./utils/eventLoader")(bot);
 
+exports.bot = bot;
 bot.commands = new Discord.Collection();
 
 fs.readdir("./commands/", (err, files) => {
@@ -40,9 +39,10 @@ bot.on('raw', async event => {
 	const { d: data } = event;
 	const user = bot.users.get(data.user_id);
 	const channel = bot.channels.get(data.channel_id) || await user.createDM();
+	const emojiKey = (data.emoji.id) ? `${data.emoji.name}:${data.emoji.id}` : data.emoji.name;
+
 	let message = channel.messages.get(data.message_id);
 
-	const emojiKey = (data.emoji.id) ? `${data.emoji.name}:${data.emoji.id}` : data.emoji.name;
 
 	if (event.t === 'MESSAGE_REACTION_REMOVE' && message && message.reactions.get(emojiKey) && message.reactions.get(emojiKey).users.size) return;
 	if (event.t === 'MESSAGE_REACTION_ADD' && message) return;

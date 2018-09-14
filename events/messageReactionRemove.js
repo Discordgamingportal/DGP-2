@@ -13,7 +13,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.pubg)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **PUBG** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!pubg**.")
+    .setDescription("We hebben met succes **PUBG** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :airplane:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -27,7 +27,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.gta)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **GTA** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!gta**.")
+    .setDescription("We hebben met succes **GTA** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :oncoming_police_car:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -41,7 +41,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.csgo)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **CSGO** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!csgo**.")
+    .setDescription("We hebben met succes **CSGO** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :gun:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -55,7 +55,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.fortnite)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **FORTNITE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!fortnite**.")
+    .setDescription("We hebben met succes **FORTNITE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :house_with_garden:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -69,7 +69,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.minecraft)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **MINECRAFT** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!minecraft**.")
+    .setDescription("We hebben met succes **MINECRAFT** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :pick:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -83,7 +83,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.overwatch)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **OVERWATCH** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!overwatch**.")
+    .setDescription("We hebben met succes **OVERWATCH** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :shield:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -97,7 +97,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.calloffduty)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **COD** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!cod**.")
+    .setDescription("We hebben met succes **COD** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :skull:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -111,7 +111,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.rocketleague)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **ROCKET LEAGUE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!rocketleague**.")
+    .setDescription("We hebben met succes **ROCKET LEAGUE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :soccer:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);
@@ -125,7 +125,7 @@ module.exports = (reaction, message, bot) => {
     .setThumbnail(game.rainbowsixsiege)
     .setColor("#ff0000")
     .setAuthor("Discord Gaming Portal Gameranks")
-    .setDescription("We hebben met succes **RAINBOW SIX SIEGE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en typ **!rainbowsixsiege**.")
+    .setDescription("We hebben met succes **RAINBOW SIX SIEGE** weggehaald van jouw account.\nMocht je je rank terug willen ga dan naar #ranks en reageer met :rainbow:")
     .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
     member.send(embed);

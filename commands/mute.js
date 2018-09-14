@@ -18,7 +18,7 @@ module.exports.run = async (bot, message, args) => {
 
   let DMembed = new Discord.RichEmbed()
   .setTimestamp()
-  .setColor("#00ff20")
+  .setColor("#ff7400")
   .setAuthor("Discord Gaming Portal Moderation")
   .setDescription("Je bent gemute op **Discord Gaming Portal**!\n **Reden:** " + Reason + "\n**Tijd** " + Mutetijd)
   .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
@@ -32,7 +32,7 @@ module.exports.run = async (bot, message, args) => {
 
   let muteEmbed = new Discord.RichEmbed()
   .setTimestamp()
-  .setColor("#00ff20")
+  .setColor("#ff7400")
   .setAuthor(message.author.username + "#" + message.author.discriminator, message.author.displayAvatarURL)
   .setDescription("**Gebuiker:** " + `${user.user.tag} (${user.id})` + "\n**Actie**: Mute" + "\n**Reden** " + Reason + "\n**Tijd** " + Mutetijd)
   .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
