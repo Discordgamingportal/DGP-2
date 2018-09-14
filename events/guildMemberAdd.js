@@ -8,7 +8,7 @@ module.exports = (member, bot) => {
   .setThumbnail(member.user.displayAvatarURL)
   .setColor("#00ff20")
   .setAuthor("Hey " + member.user.username + "#" + member.user.discriminator + "!")
-  .setDescription("Welkom op **Discord Gaming Portal**! \nZorg ervoor dat je <#460495927900110848> even bekijkt. \nJe kan een rank toevoegen in <#458777988801232926>.")
+  .setDescription("Welkom op **Discord Gaming Portal**! \nZorg ervoor dat je <#460495927900110848> even bekijkt. \nJe kan een rank toevoegen in <#485803542318153729>.")
   .setFooter("© Discord Gaming Portal", bot.user.avatarURL);
 
   member.addRole(roles.gamer);
